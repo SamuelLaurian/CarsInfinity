@@ -1,0 +1,31 @@
+p{
+    font-size:300%;
+    font-style: italic;
+    font-variant-position: normal;
+    position:relative;
+}
+div{
+    position:relative top;
+}
+h1{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    text-decoration-thickness: 50%;
+    font-size: 500%;
+    font-family: 'Courier New', Courier, monospace;
+}
+ body {
+        background-image: url(C:\Users\pmdon\Documents\coolbeamer.webp);
+        background-size: cover; /* Adjust to cover the entire background */
+        background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+        background-position: center;
+        margin: 50%;
+        width: 0;
+        size-adjust: 10%;
+    }
+    nav{
+        background-image: black;
+        
+    }
+   
