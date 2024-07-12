@@ -1,31 +1,84 @@
 p{
-    font-size:300%;
+    font-size:200%;
     font-style: italic;
-    font-variant-position: normal;
+    font-variation-settings:normal;
+    text-decoration-style:wavy;
     position:relative;
 }
 div{
     position:relative top;
+    font-size: large;
+    
 }
 h1{
     position: relative;
-    top: 20%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     text-decoration-thickness: 50%;
     font-size: 500%;
     font-family: 'Courier New', Courier, monospace;
+    size-adjust: 10%;
+    border-radius: 10%;
 }
  body {
-        background-image: url(C:\Users\pmdon\Documents\coolbeamer.webp);
         background-size: cover; /* Adjust to cover the entire background */
         background-repeat: no-repeat; /* Ensure the image doesn't repeat */
-        background-position: center;
-        margin: 50%;
+        margin: 10%;
         width: 0;
         size-adjust: 10%;
+        background-position:center;
     }
-    nav{
-        background-image: black;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:skyblue;
+        font-style: italic;
+    }
+    li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 30px 15px;
+        text-decoration: ghostwhite;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        padding: 1.3 rem,10%;
+        background: skyblue;
+        display: flex;
         
     }
-   
+   .logo{
+    font-size: 3rem;
+    color:black;
+    text-decoration:none;
+    font-weight: 800;
+   }
+
+   footer {
+    background-color:lightblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+img{
+  position: center;
+  font-size-adjust: none;
+}
